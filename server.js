@@ -6,6 +6,13 @@ const mysql = require('mysql')
 const readConfig = require('read-config');
 const config = readConfig('./config.json');
 
+const connection = mysql.createConnection({
+    host     : 'localhost',
+    user     : 'root',
+    password : '',
+    database : 'react-lms'
+});
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 

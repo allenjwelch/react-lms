@@ -22,6 +22,7 @@ class App extends Component {
                             <Route exact path="/courses" component={Courses} />
                             <Route exact path="/calendar" component={Calendar} />
                             <Route exact path="/resources" component={Resources} />
+                            <Route exact path="/admin" component={Admin} />
                         </Switch>
                     <Footer/>
                 </div>

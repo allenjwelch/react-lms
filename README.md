@@ -1,4 +1,4 @@
-# Basic React App
+# React LMS
 
 ## Prerequisites / Dependencies
 To duplicate you will need the following things properly installed on your computer.
@@ -16,5 +16,4 @@ To duplicate you will need the following things properly installed on your compu
 ## Running / Development
 * npm start (to start development server)
 
-## Big Commerce API
 
